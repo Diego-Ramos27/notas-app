@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ note ? 'Editar Nota' : 'Crear Nota' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-label position="stacked">Título</ion-label>
+    <ion-input [(ngModel)]="title"></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-item>
+      <ion-label position="stacked">Nombre del artículo</ion-label>
+      <ion-input [(ngModel)]="newItem.name"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="stacked">Precio</ion-label>
+      <ion-input type="number" [(ngModel)]="newItem.price"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" (click)="addItem()">Agregar artículo</ion-button>
+  </ion-list>
+
+  <ion-list>
+    <ion-item *ngFor="let item of items; let i = index">
+      <ion-label>
+        {{ item.name }} - ${{ item.price.toFixed(2) }}
+      </ion-label>
+      <ion-button fill="clear" color="danger" slot="end" (click)="removeItem(i)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+  <ion-button expand="full" (click)="save()">
+    {{ note ? 'Guardar Cambios' : 'Crear Nota' }}
+  </ion-button>
+</ion-content>
+
+<ion-card>
+  <ion-card-content class="ion-text-end">
+    <h2>Total: ${{ getTotal().toFixed(2) }}</h2>
+  </ion-card-content>
+</ion-card>

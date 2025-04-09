@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>IRemember</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="addNote()">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let note of noteService.getNotes()" [routerLink]="['/note', note.id]">
+      <ion-label>
+        <h2>{{ note.title }}</h2>
+        <ul>
+          <li *ngFor="let item of note.items">
+            {{ item.name }} - ${{ item.price.toFixed(2) }}
+          </li>
+        </ul>
+        <p><strong>Total:</strong> ${{ getTotal(note).toFixed(2) }}</p>
+      </ion-label>
+      <ion-button fill="clear" slot="end" color="danger" (click)="onDeleteClick(note.id, $event)">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>

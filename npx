@@ -1,0 +1,63 @@
+> ng.cmd run app:build
+[33m❯[39m Building...
+[32m✔[39m Building...
+Initial chunk files   | Names                 |  Raw size | Estimated transfer size
+main-QYO2ECUJ.js      | main                  | 467.22 kB |               105.03 kB
+chunk-ECYTYUTL.js     | -                     |  41.32 kB |                13.77 kB
+polyfills-4BK4MXU4.js | polyfills             |  34.73 kB |                11.41 kB
+chunk-QMOTCNHF.js     | -                     |  31.90 kB |                10.75 kB
+styles-TGFG4HD2.css   | styles                |  29.33 kB |                 4.46 kB
+chunk-2NZY4R5C.js     | -                     |  10.41 kB |                 2.68 kB
+chunk-D3GQ7NYH.js     | -                     |  10.37 kB |                 2.67 kB
+chunk-UOCI3RAL.js     | -                     |   9.26 kB |                 3.45 kB
+chunk-2GPPLA5I.js     | -                     |   7.65 kB |                 2.59 kB
+chunk-JWIEPCRG.js     | -                     |   5.83 kB |                 2.15 kB
+chunk-FERD25SW.js     | -                     |   5.47 kB |                 2.16 kB
+chunk-3CEBPI2I.js     | -                     |   3.73 kB |                 1.41 kB
+chunk-UW4PTY73.js     | -                     |   3.70 kB |                 1.29 kB
+chunk-5OMUW5VI.js     | -                     |   3.35 kB |                 1.51 kB
+chunk-BZ2JL7UE.js     | -                     |   3.23 kB |                 1.27 kB
+chunk-6D5ER36P.js     | -                     |   3.17 kB |                 1.37 kB
+chunk-OBXDPQ3V.js     | -                     |   2.53 kB |               739 bytes
+chunk-4PGTP63H.js     | -                     |   1.70 kB |               710 bytes
+chunk-7EU7YSXT.js     | -                     |   1.53 kB |               672 bytes
+chunk-224WD72B.js     | -                     |   1.14 kB |               498 bytes
+chunk-QPVVTFFW.js     | -                     |   1.02 kB |                 1.02 kB
+chunk-RW4GY4BD.js     | -                     | 986 bytes |               986 bytes
+chunk-BHE24O7E.js     | -                     | 979 bytes |               979 bytes
+chunk-HC6MZPB3.js     | -                     | 962 bytes |               962 bytes
+chunk-LE52NDFZ.js     | -                     | 949 bytes |               949 bytes
+chunk-5XTHKFKH.js     | -                     | 949 bytes |               949 bytes
+chunk-KAXDG7U7.js     | -                     | 946 bytes |               946 bytes
+chunk-WJKUSYYQ.js     | -                     | 876 bytes |               876 bytes
+chunk-LEIMCQKJ.js     | -                     | 573 bytes |               573 bytes
+chunk-J6ICYO4L.js     | -                     | 557 bytes |               557 bytes
+chunk-U7TNTCE3.js     | -                     | 412 bytes |               412 bytes
+chunk-KKWJLJMF.js     | -                     | 287 bytes |               287 bytes
+chunk-MCRJI3T3.js     | -                     |  99 bytes |                99 bytes
+chunk-LF5XB4YN.js     | -                     |  99 bytes |                99 bytes
+
+                      | Initial total         | 687.28 kB |               180.30 kB
+
+Lazy chunk files      | Names                 |  Raw size | Estimated transfer size
+chunk-2WNWRKHP.js     | core-js               |  94.05 kB |                28.41 kB
+chunk-AKXONW45.js     | ion-datetime_3-entry  |  73.53 kB |                14.27 kB
+chunk-UC4GQZ5J.js     | ion-item_8-entry      |  54.89 kB |                 7.20 kB
+chunk-NJM2LPGC.js     | ion-textarea-entry    |  47.03 kB |                 5.64 kB
+chunk-CW54F5Y4.js     | ion-select_3-entry    |  41.66 kB |                 7.17 kB
+chunk-HK5SQ56C.js     | ion-app_8-entry       |  41.20 kB |                 9.22 kB
+chunk-KKT4ANVJ.js     | ion-input-entry       |  41.06 kB |                 5.64 kB
+chunk-32LZ6AN6.js     | ion-alert-entry       |  35.60 kB |                 6.41 kB
+chunk-BCFTJEGD.js     | ion-modal-entry       |  30.25 kB |                 7.33 kB
+chunk-YAOIIOV7.js     | ion-segment_2-entry   |  29.47 kB |                 5.58 kB
+chunk-QYVXRM7T.js     | ion-range-entry       |  28.03 kB |                 5.44 kB
+chunk-FJKNMMQ2.js     | ion-button_2-entry    |  27.84 kB |                 5.51 kB
+chunk-JHTMSZVQ.js     | ion-refresher_2-entry |  25.16 kB |                 5.22 kB
+chunk-GXSBWWMB.js     | ion-menu_3-entry      |  23.96 kB |                 5.05 kB
+chunk-ZBJJQZ6P.js     | ion-popover-entry     |  23.92 kB |                 5.87 kB
+...and 76 more lazy chunks files. Use "--verbose" to show all the files.
+
+Application bundle generation complete. [20.223 seconds]
+
+Output location: C:\Users\drive\OneDrive\Documentos\Programación Móvil\notas-app\www
+
